@@ -1,0 +1,51 @@
+/* mobile first */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{text-decoration-none}
+
+body{
+    font-family:'Roboto',sans-serif
+}
+
+:root{
+    --orange:#FF8A56;
+}
+
+.intro-left-side h1{
+    font-size: 34px;
+}
+.nav-links {
+  display: none !important;
+}
+
+.intro-left-side h1 span{
+    color: var(--orange);
+}
+@media(min-width:768px){
+  .nav-links{
+    display:flex!important;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .intro-left-side h1{
+    font-size: 40px;
+  }
+.intro-left-side {
+    padding-top: 62px;
+}
+}
+
+
+ @media(min-width:992px){
+    .intro-left-side h1{
+font-size: 70px;
+
+    }
+    .intro-left-side{
+        padding-top: 92px;
+    }
+ }
