@@ -24,6 +24,25 @@ body{
 .intro-left-side h1 span{
     color: var(--orange);
 }
+
+
+
+
+
+/* * services section */
+.card-img-top{
+  width: 70px;
+  height: 70px;
+}
+
+.services ul {
+  list-style-type: square;
+ padding-left: 20px;
+}
+
+.container-services h6 {
+  color: #FF5E69;
+}
 @media(min-width:768px){
   .nav-links{
     display:flex!important;

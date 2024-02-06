@@ -22,3 +22,7 @@ const swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+
+// AOS JS
+AOS.init();
