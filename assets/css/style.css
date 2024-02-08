@@ -43,6 +43,13 @@ body{
 .container-services h6 {
   color: #FF5E69;
 }
+
+/** project section start */
+
+.view-all-projects {
+
+  background-color:#222;
+}
 @media(min-width:768px){
   .nav-links{
     display:flex!important;
