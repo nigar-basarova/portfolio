@@ -50,6 +50,19 @@ body{
 
   background-color:#222;
 }
+
+.view-all-projects a {
+  color: #B16CEA;
+}
+
+.project-card{
+  margin-top: 20px;
+}
+
+.project-card > img {
+width: 486px;
+}
+
 @media(min-width:768px){
   .nav-links{
     display:flex!important;
